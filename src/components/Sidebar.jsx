@@ -8,7 +8,7 @@ const Sidebar = () => {
 
   return (
     <div className="flex flex-col items-end text-white text-2xl mx-4">
-      <div class="h-[180px] w-[2px] bg-secondary mr-5 mb-3" />
+      <div class="h-[160px] w-[2px] bg-secondary mr-5 mb-3" />
       <a href={`https://wa.me/${phoneNumber}`} className="flex p-2">
         <FaWhatsapp />
       </a>
