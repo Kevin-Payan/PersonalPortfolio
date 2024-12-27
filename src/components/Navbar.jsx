@@ -2,14 +2,14 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex text-white justify-center">
-      <a href="#" className="p-4">
+    <div className="flex justify-center text-zinc-500 p-3">
+      <a href="#" className="m-4 hover:text-zinc-300">
         Home
       </a>
-      <a href="#" className="p-4">
+      <a href="#about" className="m-4 hover:text-zinc-300">
         About
       </a>
-      <a href="#" className="p-4">
+      <a href="#" className="m-4 hover:text-zinc-300">
         Contact
       </a>
     </div>
