@@ -27,11 +27,11 @@ const About = () => {
       <Card name="CSS" image={cssImage} />
       <Card name="Tailwind CSS" image={tailwindImage} />
       <Card name="React" image={reactImage} />
-      <Card name="Vue" image={vueImage} />
-      <Card name="Node" image={nodeImage} />
-      <Card name="Express" image={expressImage} />
+      <Card name="Vue.js" image={vueImage} />
+      <Card name="Node.js" image={nodeImage} />
+      <Card name="Express.js" image={expressImage} />
       <Card name="SQL" image={sqlImage} />
-      <Card name="Mongodb" image={mongodbImage} />
+      <Card name="MongoDB" image={mongodbImage} />
       <Card name="Git" image={gitImage} />
       <Card name="AWS" image={awsImage} />
     </div>
