@@ -7,8 +7,7 @@ const Sidebar = () => {
   const phoneNumber = import.meta.env.VITE_PHONE_NUMBER;
 
   return (
-    <div className="flex flex-col items-end text-white text-2xl mx-4">
-      <div class="h-[160px] w-[2px] bg-secondary mr-5 mb-3" />
+    <div className="flex justify-center text-white text-2xl m-4 p-2">
       <a href={`https://wa.me/${phoneNumber}`} className="flex p-2">
         <FaWhatsapp />
       </a>
