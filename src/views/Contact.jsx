@@ -7,7 +7,9 @@ const Contact = () => {
       id="contact"
       className="w-screen h-screen text-center text-white m-8 p-8"
     >
-      <h2 className="p-3">Get in touch</h2>
+      <h2 className="p-3 underline decoration-secondary underline-offset-2">
+        Get in touch
+      </h2>
       <h1 className="font-medium p-3 text-3xl">Let's work together</h1>
       <div className="p-2">
         <p>

@@ -17,27 +17,22 @@ import awsImage from "../assets/skills/aws.svg";
 
 const About = () => {
   return (
-    <div className="w-screen h-auto m-5 p-5" id="about">
-      <h1 className="text-white font-bold text-4xl m-3 p-3">About Me</h1>
-      <div className="text-white text-lg m-3 p-3">
+    <div className="w-screen h-auto m-5 p-5 bg-accent" id="about">
+      <h1 className="text-white font-bold text-4xl m-3 p-3 underline decoration-secondary underline-offset-4">
+        About Me
+      </h1>
+      <div className="text-white text-lg m-3 p-3 rounded-md bg-card italic bg-opacity-30">
         <p>
-          I studied Cybernetic Electronics Engineering, a carrer in which I grew
-          a passion for robotics
-        </p>
-        <p>
-          (participating in world championships), AI (completed studies on deep
-          learning in China)
-        </p>
-        <p>
-          and
-          <span className="text-secondary"> software development </span>
-          (in which I now work full time).
+          "Building the future, one line of code at a time. As a Software
+          Engineer with a passion for{" "}
+          <span className="text-secondary font-semibold">AI</span>, I enjoy
+          creating solutions that make people's lives easier."
         </p>
       </div>
       <h1 className="text-white font-bold text-4xl text-center m-4">
         My Skills
       </h1>
-      <div className="grid grid-cols-4 grid-rows-4 gap-3 mx-20 justify-items-center">
+      <div className="grid grid-cols-4 grid-rows-4 gap-y-2 gap-x-0 mx-24 px-8 justify-items-center">
         <div>
           <Card name="Python" image={pythonImage} />
         </div>

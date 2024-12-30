@@ -7,10 +7,10 @@ export default {
         sans: ["Roboto", "sans-serif"], // Set Lato as the default sans font
       },
       colors: {
-        primary: "#26292F",
-        secondary: "#FF4081 ",
-        accent: "#FFA500",
-        card: "#313235",
+        primary: "#212529",
+        secondary: "#ffd100 ",
+        accent: "#1e2125",
+        card: "#373b3e",
       },
     },
   },

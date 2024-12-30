@@ -23,7 +23,11 @@ const Home = () => {
             About Me <FaArrowCircleDown className="ml-2" />
           </a>
         </div>
-        <img src={mePhoto} alt="me" className="w-1/4 rounded-full m-4 p-4" />
+        <img
+          src={mePhoto}
+          alt="me"
+          className="w-1/4 rounded-full m-4 p-4 border border-secondary shadow-sm shadow-secondary"
+        />
       </div>
     </div>
   );
