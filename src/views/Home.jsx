@@ -11,10 +11,12 @@ const Home = () => {
 
       <div className="flex text-white justify-center items-center">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-3xl p-1 m-2">
+          <h1 className="text-3xl p-1 m-2 font-title">
             Hello, I'm <span className="text-secondary">Kevin Payan</span>.
           </h1>
-          <h2 className="text-2xl p-1 m-2">I'm a Software Engineer.</h2>
+          <h2 className="text-2xl p-1 m-2 font-title">
+            I'm a Software Engineer.
+          </h2>
 
           <a
             href="#about"

@@ -4,11 +4,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Roboto", "sans-serif"], // Set Lato as the default sans font
+        sans: ["Roboto", "sans-serif"],
+        serif: ["Rubik", "serif"],
+        title: ["Lora", "serif"],
       },
       colors: {
         primary: "#212529",
-        secondary: "#ffd100 ",
+        secondary: "#5fa6ed",
         accent: "#1e2125",
         card: "#373b3e",
       },

@@ -18,10 +18,10 @@ import awsImage from "../assets/skills/aws.svg";
 const About = () => {
   return (
     <div className="w-screen h-auto m-5 p-5 bg-accent" id="about">
-      <h1 className="text-white font-bold text-4xl m-3 p-3 underline decoration-secondary underline-offset-4">
+      <h1 className="text-white font-semibold text-4xl m-3 p-3 underline decoration-secondary underline-offset-4 font-title">
         About Me
       </h1>
-      <div className="text-white text-lg m-3 p-3 rounded-md bg-card italic bg-opacity-30">
+      <div className="text-white text-lg m-3 mb-14 p-3 rounded-md bg-card italic bg-opacity-30">
         <p>
           "Building the future, one line of code at a time. As a Software
           Engineer with a passion for{" "}
@@ -29,7 +29,7 @@ const About = () => {
           creating solutions that make people's lives easier."
         </p>
       </div>
-      <h1 className="text-white font-bold text-4xl text-center m-4">
+      <h1 className="text-white font-semibold text-4xl text-center m-4 font-title">
         My Skills
       </h1>
       <div className="grid grid-cols-4 grid-rows-4 gap-y-2 gap-x-0 mx-24 px-8 justify-items-center">
