@@ -14,6 +14,7 @@ import sqlImage from "../assets/skills/sql.svg";
 import mongodbImage from "../assets/skills/mongodb.svg";
 import gitImage from "../assets/skills/git.svg";
 import awsImage from "../assets/skills/aws.svg";
+import firebaseImage from "../assets/skills/firebase.svg";
 
 const About = () => {
   return (
@@ -74,6 +75,9 @@ const About = () => {
         </div>
         <div className="col-start-3 row-start-4">
           <Card name="AWS" image={awsImage} />
+        </div>
+        <div className="col-start-4 row-start-4">
+          <Card name="Firebase" image={firebaseImage} />
         </div>
       </div>
     </div>
