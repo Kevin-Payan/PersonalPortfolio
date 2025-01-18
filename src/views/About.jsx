@@ -30,53 +30,26 @@ const About = () => {
           creating solutions that make people's lives easier."
         </p>
       </div>
+
       <h1 className="text-white font-semibold text-4xl text-center m-4 font-title">
         My Skills
       </h1>
-      <div className="grid grid-cols-4 grid-rows-4 gap-y-2 gap-x-0 mx-24 px-8 justify-items-center">
-        <div>
+      <div className="flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center">
           <Card name="Python" image={pythonImage} />
-        </div>
-        <div>
           <Card name="JavaScript" image={javascriptImage} />
-        </div>
-        <div>
-          <Card name="TypeScript" image={typescriptImage} />
-        </div>
-        <div>
-          <Card name="Vue.js" image={vueImage} />
-        </div>
-        <div className="row-start-2">
-          <Card name="HTML" image={htmlImage} />
-        </div>
-        <div className="row-start-2">
-          <Card name="CSS" image={cssImage} />
-        </div>
-        <div className="row-start-2">
           <Card name="Tailwind CSS" image={tailwindImage} />
-        </div>
-        <div className="row-start-2">
           <Card name="React" image={reactImage} />
         </div>
-        <div className="row-start-3">
+        <div className="flex justify-center items-center">
           <Card name="Node.js" image={nodeImage} />
-        </div>
-        <div className="row-start-3">
           <Card name="Express.js" image={expressImage} />
-        </div>
-        <div className="row-start-3">
           <Card name="SQL" image={sqlImage} />
-        </div>
-        <div className="row-start-3">
           <Card name="MongoDB" image={mongodbImage} />
         </div>
-        <div className="col-start-2 row-start-4">
+        <div className="flex justify-center items-center">
           <Card name="Git" image={gitImage} />
-        </div>
-        <div className="col-start-3 row-start-4">
           <Card name="AWS" image={awsImage} />
-        </div>
-        <div className="col-start-4 row-start-4">
           <Card name="Firebase" image={firebaseImage} />
         </div>
       </div>
