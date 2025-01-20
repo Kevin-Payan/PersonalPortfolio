@@ -11,6 +11,7 @@ export default {
       colors: {
         primary: "#212529",
         secondary: "#5fa6ed",
+        accentBlue: "#1872c7",
         accent: "#1e2125",
         card: "#373b3e",
       },

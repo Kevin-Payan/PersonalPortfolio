@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-screen h-screen text-center text-white m-8 p-8"
+      className="w-screen h-screen text-center text-white m-8 p-8 bg-accent"
     >
       <h2 className="p-3 underline decoration-secondary underline-offset-2">
         Get in touch
