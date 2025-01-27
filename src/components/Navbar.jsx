@@ -5,11 +5,11 @@ const Navbar = () => {
 
   return (
     <div className="font-serif flex justify-center text-zinc-500 p-3">
-      <a href="#home" className={linkClasses}>
-        Home
-      </a>
       <a href="#about" className={linkClasses}>
         About
+      </a>
+      <a href="#experience" className={linkClasses}>
+        Experience
       </a>
       <a href="#contact" className={linkClasses}>
         Contact
