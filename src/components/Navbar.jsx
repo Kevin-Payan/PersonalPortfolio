@@ -4,7 +4,7 @@ const Navbar = () => {
   const linkClasses = "m-4 hover:text-zinc-300 transition-all duration-300";
 
   return (
-    <div className="font-serif flex justify-center text-zinc-500 p-3">
+    <div className="font-serif flex justify-center text-zinc-500">
       <a href="#about" className={linkClasses}>
         About
       </a>
