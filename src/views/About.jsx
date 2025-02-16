@@ -33,7 +33,8 @@ const About = () => {
   ];
 
   return (
-    <div className="w-screen h-auto m-5 p-5 bg-accent" id="about">
+    <div className="w-screen h-auto p-5 bg-gradient-to-b from-gray-900 via-gray-900 to-cyan-950
+" id="about">
       <h1 className="text-white font-semibold text-4xl m-3 p-3 underline decoration-secondary underline-offset-4 font-title">
         About Me
       </h1>
